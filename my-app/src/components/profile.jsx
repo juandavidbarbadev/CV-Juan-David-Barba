@@ -1,0 +1,24 @@
+
+function Profile({ data }) {
+  return (
+    <section className="flex flex-col sm:flex-row items-center sm:items-start gap-6 p-6 border rounded-2xl shadow-lg bg-white">
+      
+      <img
+        src={data.image}
+        alt={`Foto de perfil de ${data.name}`}
+        className="w-28 h-28 object-cover rounded-full border-2 border-gray-300 shadow-md"
+      />
+
+      
+      <div className="text-center sm:text-left space-y-2">
+        <h2 className="text-2xl font-bold text-gray-800">{data.name}</h2>
+        <p className="text-gray-600 italic">
+          {data.profession ? data.profession : "Sin profesión registrada"}
+        </p>
+        <p className="text-gray-700 leading-relaxed">{data.description}</p>
+      </div>
+    </section>
+  );
+}
+
+export default Profile;
