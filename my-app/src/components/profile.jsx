@@ -16,13 +16,14 @@ function Profile({ data }) {
           {data.profession ? data.profession : "Sin profesión registrada"}
         </p>
         <p className="text-gray-700 leading-relaxed">{data.description}</p>
-        <a href="https://drive.google.com/uc?export=download&id=1j_7-JUr9yB8AABYHEwQMj5lGEKmChINC"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
-            >
-              📄 Descargar CV
-            </a>
+        <a href="https://drive.google.com/uc?export=download&id=1i95hnRIL70rShBQRTnD037AVpqt2jEQ0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-green-900 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+          >
+            📄 Descargar CV
+          </a>
+
 
       </div>
     </section>
