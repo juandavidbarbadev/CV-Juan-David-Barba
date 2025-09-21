@@ -17,12 +17,13 @@ function Profile({ data }) {
         </p>
         <p className="text-gray-700 leading-relaxed">{data.description}</p>
         <a href="https://drive.google.com/uc?export=download&id=1i95hnRIL70rShBQRTnD037AVpqt2jEQ0"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-gradient-to-r from-green-600 to-green-800 hover:from-green-700 hover:to-green-900 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
-          >
-            📄 Descargar CV
-          </a>
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 text-white font-semibold rounded-lg shadow-md bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+        >
+          📄 Descargar CV
+        </a>
+
 
 
       </div>
