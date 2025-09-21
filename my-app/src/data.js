@@ -16,6 +16,7 @@ export const experiences = [
 
 export const education = [
   { id: "ed1", title: "Ingeniería en Sistemas", place: "Unidades Tecnologica", year: "2025" },
-  { id: "ed2", title: "Asistente Administrativo", place: "Sena", year: "2021" },
-  { id: "ed3", title: "Bachillerato", place: "Fe y Alegría", year: "2021" },
+  { id: "ed2", title: "Tecnico en instalaciones electricas domiciliarias", place: "Sena", year: "2025" },
+  { id: "ed3", title: "Asistente Administrativo", place: "Sena", year: "2021" },
+  { id: "ed4", title: "Bachillerato", place: "Fe y Alegría", year: "2021" },
 ];
