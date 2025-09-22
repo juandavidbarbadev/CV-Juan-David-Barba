@@ -1,0 +1,8 @@
+{
+  "Name": "cv-oac",
+  "Description": "Acceso seguro al bucket cv-juan-david-barba",
+  "SigningProtocol": "sigv4",
+  "SigningBehavior": "always",
+  "OriginAccessControlOriginType": "s3"
+}
+
